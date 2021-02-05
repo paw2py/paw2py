@@ -2,11 +2,10 @@ import pandas as pd
 import json
 import requests
 
-
-r = requests.get('rest api url')
+r = requests.get('https://jsonmock.hackerrank.com/api/articles?page=2')
 x = r.json()
 df = pd.DataFrame(x['data'])
-df['com_len'] = df['title'].apply(len) #length of each titile in the data frame added a new column to df
+df['com_len'] = df['title'].apply(len) 
 dfnew =df.sort_values(by=['num_comments','com_len'], ascending=[False,True])
 
 
