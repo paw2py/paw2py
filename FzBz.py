@@ -22,4 +22,4 @@ print(fizzBuzzz(15)
 Output:
       ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz","pawan","rudgi","aol"]
       
-      'hot fixing code now, this will go before Release branch'
+      'hot fixing code now 2, this will go before Release branch'
