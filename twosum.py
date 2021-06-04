@@ -36,3 +36,6 @@
             if b in result:
                 return[result[b],idx]
             result[val] = idx
+    
+###########################################
+rud_feature: 1st commit    
